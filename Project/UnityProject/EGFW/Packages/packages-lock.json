@@ -6,6 +6,20 @@
       "source": "local",
       "dependencies": {}
     },
+    "com.tencent.puerts.webgl": {
+      "version": "file:../../../ThirdParty/puerts_unity_webgl_demo/packages/webgl/upm",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.tencent.puerts.core": "2.0.5"
+      }
+    },
+    "com.tencent.puerts.webgl.jsbuild": {
+      "version": "file:../../../ThirdParty/puerts_unity_webgl_demo/packages/webgl-jsbuild/upm",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.burst": {
       "version": "1.8.17",
       "depth": 1,
