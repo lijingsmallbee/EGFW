@@ -1,0 +1,30 @@
+{
+    "name": "@puerts/ts-loader",
+    "displayName": "Puerts TS loader",
+    "version": "2.0.5",
+    "description": "use typescript with more joy for PuerTS",
+    "scripts": {
+        "build": "cd libs/node-resolve && webpack -c webpack.config.js && cd ../source-map && webpack -c webpack.config.js && cd ../ts-compile && webpack -c webpack.config.js"
+    },
+    "keywords": [
+        "Script"
+    ],
+    "author": {
+        "name": "zombieyang",
+        "email": "zombieyang@tencent.com",
+        "url": "https://github.com/zombieyang"
+    },
+    "dependencies": {
+        "@types/glob": "^8.0.0",
+        "@types/node": "^18.11.13",
+        "buffer": "^6.0.3",
+        "glob": "^8.0.3",
+        "path-browserify": "^1.0.1",
+        "source-map-support": "^0.5.21",
+        "ts-loader": "^9.5.0",
+        "typescript": "^4.9.3",
+        "url": "^0.11.0",
+        "webpack-cli": "^5.0.1",
+        "whatwg-url": "^12.0.1"
+    }
+}

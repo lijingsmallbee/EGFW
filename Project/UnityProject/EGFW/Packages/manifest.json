@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.tencent.puerts.core": "file:../../../ThirdParty/puerts_unity_demo-master/package",
+    "com.tencent.puerts.ts-loader": "file:../../../ThirdParty/puerts-ts-loader-main/upm",
     "com.tencent.puerts.webgl": "file:../../../ThirdParty/puerts_unity_webgl_demo/packages/webgl/upm",
     "com.tencent.puerts.webgl.jsbuild": "file:../../../ThirdParty/puerts_unity_webgl_demo/packages/webgl-jsbuild/upm",
     "com.unity.collab-proxy": "2.4.4",
