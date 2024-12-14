@@ -1,0 +1,10 @@
+{
+    "name": "com.kingsgroup.nexgendragon",
+    "version": "1.0.0",
+    "displayName": "Nexgen Dragon Framework",
+    "description": "the framework of Nexgen Dragon games",
+    "unity": "2018.4",
+    "dependencies": {
+   }
+  }
+  

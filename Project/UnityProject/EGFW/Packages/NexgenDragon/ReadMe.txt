@@ -1,0 +1,9 @@
+NexgenDragon框架代码DLL化
+
+一、目的
+保证游戏框架的可重用性，可维护性和代码安全性
+
+二、思路
+因为当前框架代码还未达到稳定的状态，因此会在rob工程目录同级创建一个新的DLL工程，然后，通过整理将可重用的部分移动到该工程中。
+新的DLL工程可以用Xamarin或者Visual Studio for Mac编辑和管理。工程包括NexgenDragon和NexgenDragonEditor两个子工程，分别存放框架代码和相关工具。
+当框架代码达到稳定状态之后，该DLL工程会移动到一个单独的仓库，rob以及后续项目中仅是用编译后的DLL。
