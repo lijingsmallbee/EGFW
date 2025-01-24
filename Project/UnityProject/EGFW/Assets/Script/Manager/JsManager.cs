@@ -17,6 +17,11 @@ namespace EGFW
             _env = Puerts.WebGL.MainEnv.Get(new TSLoader());
         }
 
+        public void Tick(float delta)
+        {
+            _env.Tick();
+        }
+
         public void Release()
         {
             _env.Dispose();
