@@ -6,6 +6,7 @@ public class UnityEntry : MonoBehaviour
     void Start()
     {
         Game.Instance.Initialize();
+        Game.Instance.Start();
     }
 
     // Update is called once per frame

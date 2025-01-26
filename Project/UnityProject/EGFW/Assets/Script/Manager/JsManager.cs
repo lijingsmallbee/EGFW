@@ -26,6 +26,11 @@ namespace EGFW
         {
             _env.Dispose();
         }
+
+        public void Start()
+        {
+
+        }
     }
 }
 
